@@ -323,6 +323,51 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="videoAQ" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{070A2EE3-6EB3-4FF3-A1FE-1F5A2715A750}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{AB1A4349-25D2-49F1-BB05-93E4DD50DEBE}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Cornell.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D214DD15-F0A1-43C2-B24D-411434639DD8}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">videoAQ</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v0.2.1</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{34CACCAE-EC5F-428E-B671-854FDD1083B4}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">videoAQ.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v0.2.1/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v0.2.1/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/videoAQ.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5A4219FE-BE0F-4AB4-BFC9-7CB29191EEF1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/videoAQ.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Cornell</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">videoAQ</Property>
+				<Property Name="TgtF_internalName" Type="Str">videoAQ</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Cornell</Property>
+				<Property Name="TgtF_productName" Type="Str">videoAQ</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{BC9224CC-8390-42B5-9B49-AA5C90722877}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">videoAQ.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
