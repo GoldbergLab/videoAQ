@@ -40,6 +40,9 @@
 		<Item Name="Latest DAQmx timestamp.vi" Type="VI" URL="../Latest DAQmx timestamp.vi"/>
 		<Item Name="getLatestDAQmxTimestamp.vi" Type="VI" URL="../getLatestDAQmxTimestamp.vi"/>
 		<Item Name="videoAQ.ico" Type="Document" URL="../../videoAQ.ico"/>
+		<Item Name="Schedule time.ctl" Type="VI" URL="../Schedule time.ctl"/>
+		<Item Name="scheduledEnable.vi" Type="VI" URL="../scheduledEnable.vi"/>
+		<Item Name="Trigger mode.ctl" Type="VI" URL="../Trigger mode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_ArrWfmsTo1DInterleave.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_ArrWfmsTo1DInterleave.vi"/>
@@ -310,6 +313,7 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="DAQmx Control Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Control Task.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
@@ -332,27 +336,28 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Cornell.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D214DD15-F0A1-43C2-B24D-411434639DD8}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Added recording scheduler.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">videoAQ</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v0.2.2</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v1.0.0</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{34CACCAE-EC5F-428E-B671-854FDD1083B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">videoAQ.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v0.2.2/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v1.0.0/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v0.2.2/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v1.0.0/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/videoAQ.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5A4219FE-BE0F-4AB4-BFC9-7CB29191EEF1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6958DAF3-5FCC-4E8F-AC75-5444C7672C64}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/videoAQ.vi</Property>
