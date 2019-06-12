@@ -335,28 +335,29 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Cornell.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D214DD15-F0A1-43C2-B24D-411434639DD8}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Added recording scheduler.</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Added external trigger mode
+Added IMAQ dispose call at program init.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">videoAQ</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v1.0.0</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v1.1.0</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{34CACCAE-EC5F-428E-B671-854FDD1083B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">videoAQ.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v1.0.0/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v1.1.0/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v1.0.0/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v1.1.0/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/videoAQ.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6958DAF3-5FCC-4E8F-AC75-5444C7672C64}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A835EF95-E798-4B27-AFE2-58F687DF0487}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/videoAQ.vi</Property>
