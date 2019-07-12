@@ -39,11 +39,13 @@
 		<Item Name="writeVideo.vi" Type="VI" URL="../writeVideo.vi"/>
 		<Item Name="Latest DAQmx timestamp.vi" Type="VI" URL="../Latest DAQmx timestamp.vi"/>
 		<Item Name="getLatestDAQmxTimestamp.vi" Type="VI" URL="../getLatestDAQmxTimestamp.vi"/>
-		<Item Name="videoAQ.ico" Type="Document" URL="../../videoAQ.ico"/>
 		<Item Name="Schedule time.ctl" Type="VI" URL="../Schedule time.ctl"/>
 		<Item Name="scheduledEnable.vi" Type="VI" URL="../scheduledEnable.vi"/>
 		<Item Name="Trigger mode.ctl" Type="VI" URL="../Trigger mode.ctl"/>
 		<Item Name="initAudio.vi" Type="VI" URL="../initAudio.vi"/>
+		<Item Name="videoAQ.ico" Type="Document" URL="../videoAQ.ico"/>
+		<Item Name="saveSettings.vi" Type="VI" URL="../saveSettings.vi"/>
+		<Item Name="loadSettings.vi" Type="VI" URL="../loadSettings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_ArrWfmsTo1DInterleave.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_ArrWfmsTo1DInterleave.vi"/>
@@ -338,30 +340,29 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Cornell.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D214DD15-F0A1-43C2-B24D-411434639DD8}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Added multiple audio stream capability
-Added ability to split audio streams into separate files
-Fixed bug where audio only save failed</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Added save/load control setting functionality.
+Changed audio trigger so it takes into account all audio channels instead of just the first.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">videoAQ</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v2.0.0</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v2.1.0</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{34CACCAE-EC5F-428E-B671-854FDD1083B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">videoAQ.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v2.0.0/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v2.1.0/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v2.0.0/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v2.1.0/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/videoAQ.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B3C430D8-E35F-433A-B55E-9CDFC3594E36}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3F94A4A9-7227-4833-AFF3-3971F258A996}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/videoAQ.vi</Property>
