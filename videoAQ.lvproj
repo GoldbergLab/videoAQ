@@ -46,6 +46,9 @@
 		<Item Name="videoAQ.ico" Type="Document" URL="../videoAQ.ico"/>
 		<Item Name="saveSettings.vi" Type="VI" URL="../saveSettings.vi"/>
 		<Item Name="loadSettings.vi" Type="VI" URL="../loadSettings.vi"/>
+		<Item Name="Camera attribute types.ctl" Type="VI" URL="../Camera attribute types.ctl"/>
+		<Item Name="clearEventLog.vi" Type="VI" URL="../clearEventLog.vi"/>
+		<Item Name="copyLog.vi" Type="VI" URL="../copyLog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_ArrWfmsTo1DInterleave.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_ArrWfmsTo1DInterleave.vi"/>
@@ -317,6 +320,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="DAQmx Flatten Channel String.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Flatten Channel String.vi"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
@@ -330,6 +335,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="splitAudioStreamsIntoSeparateTracks.vi" Type="VI" URL="../splitAudioStreamsIntoSeparateTracks.vi"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="videoAQ" Type="EXE">
@@ -340,29 +348,28 @@
 				<Property Name="App_winsec.description" Type="Str">http://www.Cornell.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{D214DD15-F0A1-43C2-B24D-411434639DD8}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Updated external trigger capability so the trigger can control the start AND end of the video.
-Fixed an external trigger task initialization error</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Fixed AVI record framerate</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">videoAQ</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v2.2.0</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/videoAQ_v2.2.4</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{34CACCAE-EC5F-428E-B671-854FDD1083B4}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">videoAQ.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v2.2.0/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/videoAQ_v2.2.4/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v2.2.0/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/videoAQ_v2.2.4/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/videoAQ.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CCCB261C-2CDF-4B91-ADF3-77ACD019E0B0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{05FA610F-0E1E-4F60-BEEA-D56E324D4F5B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/videoAQ.vi</Property>
